@@ -65,7 +65,7 @@ The --name flag, is the names the container.
     $ docker container ls
 
 You can see the nginx and mongo names that you gave to the containers and the random name
-if container is running the "docker-entrypoint" command. so image requires some prior 
+if container is running the "docker-entrypoint" command. So image requires some prior 
 configuration before kicking off the DB process.
 
 
@@ -94,3 +94,7 @@ Running multiple containers on the same host gives us the ability to use the res
     unused volumes and networks, and dangling images:
 
     $ docker system prune
+
+
+An "image" is the blueprint for spinning up containers. An image is a TAR of a file system, 
+and a "container" is a file system plus a set of processes running in isolation.
