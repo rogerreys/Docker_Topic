@@ -1,2 +1,0 @@
-Hola mundo
-Este es un archivo de prueba, de importacion y exportacion en docker
